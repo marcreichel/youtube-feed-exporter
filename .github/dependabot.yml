@@ -1,0 +1,22 @@
+version: 2
+
+updates:
+  - package-ecosystem: composer
+    directory: "/"
+    versioning-strategy: lockfile-only
+    reviewers:
+      - "marcreichel"
+    commit-message:
+      prefix: "⬆️"
+    schedule:
+      interval: daily
+  - package-ecosystem: npm
+    directory: "/"
+    versioning-strategy: lockfile-only
+    reviewers:
+      - "marcreichel"
+    commit-message:
+      prefix: "⬆️"
+    schedule:
+      interval: daily
+
