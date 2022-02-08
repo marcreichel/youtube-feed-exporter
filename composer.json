@@ -1,10 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "marcreichel/youtube-feed-exporter",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Export your YouTube subscriptions feed.",
     "keywords": [
-        "framework",
-        "laravel"
+        "youtube"
     ],
     "license": "MIT",
     "require": {
